@@ -1,12 +1,12 @@
 const { ApplicationCommandOptionType } = require("discord.js");
-const Karaliste = require("../../schemas/karaliste"); // Şema yolunu doğru gösterdik
+const Karaliste = require("../../schemas/karaliste"); // Dosya yoluna dikkat et
 
-// BURAYA KENDİ ID'Nİ YAZ
+// KENDİ ID'Nİ BURAYA YAZ
 const OWNER_ID = "1469310778518536265";
 
 module.exports = {
   name: "karaliste",
-  description: "Kullanıcıyı karalisteye ekler veya çıkarır (Sadece Sahip).",
+  description: "Kullanıcıyı karalisteye ekler veya çıkarır.",
   category: "OWNER",
   command: {
     enabled: true,
@@ -18,12 +18,12 @@ module.exports = {
     options: [
       {
         name: "islem",
-        description: "Ne yapmak istiyorsun?",
+        description: "İşlem türü",
         type: ApplicationCommandOptionType.String,
         required: true,
         choices: [
-          { name: "Ekle", value: "add" },
-          { name: "Çıkar", value: "remove" },
+          { name: "Ekle", value: "ekle" },
+          { name: "Çıkar", value: "cikar" },
         ],
       },
       {
@@ -35,57 +35,61 @@ module.exports = {
     ],
   },
 
+  // !karaliste komutu için
   async messageRun(message, args) {
-    if (message.author.id !== OWNER_ID) return message.safeReply("⛔ Sadece sahibim kullanabilir.");
+    if (message.author.id !== OWNER_ID) return message.reply("⛔ Sadece sahibim kullanabilir.");
 
     const islem = args[0].toLowerCase();
-    const match = await message.client.resolveUsers(args[1], true);
-    const target = match[0];
+    const target = message.mentions.users.first() || await message.client.users.fetch(args[1]).catch(() => null);
 
-    if (!target) return message.safeReply("❌ Kullanıcı bulunamadı.");
-    
-    // İşlem fonksiyonunu çağır
-    const sonuc = await karalisteIslem(target.id, islem);
-    await message.safeReply(sonuc);
+    if (!target) return message.reply("❌ Kullanıcı bulunamadı.");
+
+    const sonuc = await islemYap(target.id, islem);
+    await message.reply(sonuc);
   },
 
+  // /karaliste komutu için (DÜZELTİLDİ)
   async interactionRun(interaction) {
     if (interaction.user.id !== OWNER_ID) return interaction.reply({ content: "⛔ Sadece sahibim kullanabilir.", ephemeral: true });
+
+    // Hata vermemesi için işlemi bekletiyoruz (Düşünüyor...)
+    await interaction.deferReply();
 
     const islem = interaction.options.getString("islem");
     const target = interaction.options.getUser("kullanici");
 
-    await interaction.deferReply();
-    const sonuc = await karalisteIslem(target.id, islem);
-    await interaction.followUp(sonuc);
+    const sonuc = await islemYap(target.id, islem);
+    
+    // deferReply kullandığımız için editReply kullanmalıyız
+    await interaction.editReply(sonuc);
   },
 };
 
-// Veritabanı işlemleri
-async function karalisteIslem(userId, type) {
+// Ortak İşlem Fonksiyonu
+async function islemYap(userId, type) {
   try {
     const data = await Karaliste.findOne({ userId: userId });
 
-    if (type === "add" || type === "ekle") {
+    // Ekleme İşlemi
+    if (type === "ekle" || type === "add") {
       if (data) return `⚠️ <@${userId}> zaten karalistede ekli.`;
       
       await Karaliste.create({ userId: userId });
-      return `✅ <@${userId}> başarıyla **karalisteye alındı** ve veritabanına kaydedildi.`;
+      return `✅ <@${userId}> başarıyla **karalisteye alındı**.`;
     } 
     
-    else if (type === "remove" || type === "cikar") {
+    // Çıkarma İşlemi
+    else if (type === "cikar" || type === "remove") {
       if (!data) return `⚠️ <@${userId}> zaten karalistede değil.`;
       
       await Karaliste.deleteOne({ userId: userId });
-      return `✅ <@${userId}> karalisteden **silindi**. Artık botu kullanabilir.`;
-    } 
-    
-    else {
-      return "❌ Geçersiz işlem! 'ekle' veya 'cikar' yaz.";
+      return `✅ <@${userId}> karalisteden **çıkarıldı**.`;
     }
+    
+    return "❌ Geçersiz işlem.";
 
   } catch (err) {
     console.error(err);
-    return "❌ Veritabanı hatası oluştu.";
+    return `❌ Bir hata oluştu: ${err.message}`;
   }
 }
