@@ -1,0 +1,55 @@
+{"level":30,"time":1773090161196,"pid":26238,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773090161200,"pid":26238,"hostname":"localhost","msg":"env: SPOTIFY_CLIENT_ID or SPOTIFY_CLIENT_SECRET are missing. Spotify music links won't work"}
+{"level":40,"time":1773090161200,"pid":26238,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773090161200,"pid":26238,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773090161622,"pid":26238,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773090165483,"pid":26238,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773090165494,"pid":26238,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773090165510,"pid":26238,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773090165527,"pid":26238,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773090165537,"pid":26238,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773090165579,"pid":26238,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773090165589,"pid":26238,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773090165601,"pid":26238,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773090165658,"pid":26238,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773090165672,"pid":26238,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773090165793,"pid":26238,"hostname":"localhost","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1773090165808,"pid":26238,"hostname":"localhost","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1773090165825,"pid":26238,"hostname":"localhost","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1773090165834,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1773090165843,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1773090165852,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1773090165860,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1773090165867,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1773090165876,"pid":26238,"hostname":"localhost","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1773090165890,"pid":26238,"hostname":"localhost","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1773090165904,"pid":26238,"hostname":"localhost","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1773090165918,"pid":26238,"hostname":"localhost","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1773090165979,"pid":26238,"hostname":"localhost","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1773090166003,"pid":26238,"hostname":"localhost","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1773090166195,"pid":26238,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773090166199,"pid":26238,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773090166204,"pid":26238,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1773090166380,"pid":26238,"hostname":"localhost","msg":"Loaded 105 commands"}
+{"level":30,"time":1773090166380,"pid":26238,"hostname":"localhost","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1773090166380,"pid":26238,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773090166387,"pid":26238,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773090166388,"pid":26238,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773090166388,"pid":26238,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773090166564,"pid":26238,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773090167269,"pid":26238,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773090167269,"pid":26238,"hostname":"localhost","msg":"Launching dashboard"}
+{"level":30,"time":1773090168288,"pid":26238,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1773090170005,"pid":26238,"hostname":"localhost","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1773090170073,"pid":26238,"hostname":"localhost","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1773090171378,"pid":26238,"hostname":"localhost","msg":"Logged in as Moderation#0374! (1480535441231839374)"}
+{"level":20,"time":1773090171380,"pid":26238,"hostname":"localhost","msg":"Node \"Local Node\" debug: connection: creating websocket..."}
+{"level":30,"time":1773090171383,"pid":26238,"hostname":"localhost","msg":"Music Manager initialized"}
+{"level":30,"time":1773090171383,"pid":26238,"hostname":"localhost","msg":"Initializing giveaways manager..."}
+{"level":50,"time":1773090171425,"pid":26238,"hostname":"localhost","err":{"type":"Error","message":"Error: connect ECONNREFUSED 127.0.0.1:2333","stack":"Error: Error: connect ECONNREFUSED 127.0.0.1:2333\n    at Connection._onerror (/storage/emulated/0/CalisanBotum/node_modules/lavaclient/dist/lib/node/Connection.js:145:33)\n    at callListener (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/event-target.js:290:14)\n    at WebSocket.onError (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/event-target.js:230:9)\n    at WebSocket.emit (node:events:508:28)\n    at emitErrorAndClose (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/websocket.js:1041:13)\n    at ClientRequest.<anonymous> (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/websocket.js:881:5)\n    at ClientRequest.emit (node:events:508:28)\n    at emitErrorEvent (node:_http_client:108:11)\n    at Socket.socketErrorListener (node:_http_client:575:5)\n    at Socket.emit (node:events:508:28)"},"msg":"Node \"Local Node\" encountered an error: Error: connect ECONNREFUSED 127.0.0.1:2333.: Error: connect ECONNREFUSED 127.0.0.1:2333"}
+{"level":30,"time":1773090171428,"pid":26238,"hostname":"localhost","msg":"Node \"Local Node\" disconnected"}
+{"level":20,"time":1773090171428,"pid":26238,"hostname":"localhost","msg":"Node \"Local Node\" debug: connection: unable to reconnect"}
+{"level":30,"time":1773090171542,"pid":26238,"hostname":"localhost","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1773090172122,"pid":26238,"hostname":"localhost","msg":"Successfully registered interactions"}
+{"level":50,"time":1773090269735,"pid":26238,"hostname":"localhost","err":{"type":"CombinedPropertyError","message":"Received one or more errors","stack":"Error: Received one or more errors\n    at _ArrayValidator.handle (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/builders/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1254:70)\n    at _ArrayValidator.parse (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/builders/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:972:90)\n    at EmbedBuilder.addFields (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/builders/dist/index.js:235:31)\n    at module.exports (/storage/emulated/0/CalisanBotum/src/commands/information/shared/guild.js:70:6)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Object.messageRun (/storage/emulated/0/CalisanBotum/src/commands/information/message/guildinfo.js:18:22)\n    at async Object.handlePrefixCommand (/storage/emulated/0/CalisanBotum/src/handlers/command.js:70:7)","errors":[[3,{"name":"Error","message":"Received one or more errors"}]]},"msg":"messageRun: Received one or more errors"}
+{"level":50,"time":1773090427792,"pid":26238,"hostname":"localhost","err":{"type":"DiscordAPIError","message":"Unknown Message","stack":"DiscordAPIError[10008]: Unknown Message\n    at handleErrors (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/rest/dist/index.js:748:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async SequentialHandler.runRequest (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/rest/dist/index.js:1149:23)\n    at async SequentialHandler.queueRequest (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/rest/dist/index.js:980:14)\n    at async _REST.request (/storage/emulated/0/CalisanBotum/node_modules/@discordjs/rest/dist/index.js:1293:22)\n    at async GuildMessageManager.edit (/storage/emulated/0/CalisanBotum/node_modules/discord.js/src/managers/MessageManager.js:188:15)","requestBody":{"files":[],"json":{"content":"Dragon is un-banned!","tts":false,"enforce_nonce":false,"components":[],"allowed_mentions":{"replied_user":false}}},"rawError":{"message":"Unknown Message","code":10008},"code":10008,"status":404,"method":"PATCH","url":"https://discord.com/api/v10/channels/1479934586518503682/messages/1480673295358754846"},"msg":"Unhandled exception: Unknown Message"}

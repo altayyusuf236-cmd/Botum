@@ -1,0 +1,722 @@
+{"level":30,"time":1773058028244,"pid":29900,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":50,"time":1773058028248,"pid":29900,"hostname":"localhost","msg":"env: MONGO_CONNECTION cannot be empty"}
+{"level":30,"time":1773058254925,"pid":2698,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":50,"time":1773058254942,"pid":2698,"hostname":"localhost","msg":"env: MONGO_CONNECTION cannot be empty"}
+{"level":30,"time":1773059124899,"pid":21135,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773059124903,"pid":21135,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773059124903,"pid":21135,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773059124903,"pid":21135,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773059124993,"pid":21135,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773059125015,"pid":21135,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059125017,"pid":21135,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059125106,"pid":21135,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059125137,"pid":21135,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773059125139,"pid":21135,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773059125140,"pid":21135,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773059125142,"pid":21135,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773059125850,"pid":21135,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773059125854,"pid":21135,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773059125856,"pid":21135,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773059125858,"pid":21135,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773059125868,"pid":21135,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773059125870,"pid":21135,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773059125873,"pid":21135,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773059125876,"pid":21135,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773059125878,"pid":21135,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773059125901,"pid":21135,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773059125907,"pid":21135,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773059125909,"pid":21135,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773059125916,"pid":21135,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773059125918,"pid":21135,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773059125921,"pid":21135,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773059125923,"pid":21135,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773059125924,"pid":21135,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773059125926,"pid":21135,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773059125927,"pid":21135,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773059125929,"pid":21135,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773059125930,"pid":21135,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773059125932,"pid":21135,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773059125933,"pid":21135,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773059125937,"pid":21135,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773059125938,"pid":21135,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773059125940,"pid":21135,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773059125942,"pid":21135,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773059125944,"pid":21135,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773059125944,"pid":21135,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773059125946,"pid":21135,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773059125947,"pid":21135,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773059125949,"pid":21135,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773059125950,"pid":21135,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773059125951,"pid":21135,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773059125953,"pid":21135,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773059125955,"pid":21135,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773059125957,"pid":21135,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773059125958,"pid":21135,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773059125962,"pid":21135,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773059125964,"pid":21135,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773059125965,"pid":21135,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773059125967,"pid":21135,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773059125968,"pid":21135,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773059125969,"pid":21135,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773059125971,"pid":21135,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773059125972,"pid":21135,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773059125974,"pid":21135,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773059125977,"pid":21135,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773059125978,"pid":21135,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773059125981,"pid":21135,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773059125982,"pid":21135,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773059125984,"pid":21135,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773059125985,"pid":21135,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773059125987,"pid":21135,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773059125988,"pid":21135,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773059125990,"pid":21135,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773059125991,"pid":21135,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773059125991,"pid":21135,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773059125992,"pid":21135,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773059125994,"pid":21135,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773059125995,"pid":21135,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773059125996,"pid":21135,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773059125997,"pid":21135,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773059126000,"pid":21135,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773059126002,"pid":21135,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773059126003,"pid":21135,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773059126004,"pid":21135,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773059126006,"pid":21135,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773059126011,"pid":21135,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773059126015,"pid":21135,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773059126017,"pid":21135,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773059126043,"pid":21135,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773059126043,"pid":21135,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773059126043,"pid":21135,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773059126046,"pid":21135,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773059126046,"pid":21135,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773059126046,"pid":21135,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773059126121,"pid":21135,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773059126752,"pid":21135,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773059126753,"pid":21135,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1773059156951,"pid":21135,"hostname":"localhost","err":{"type":"MongooseServerSelectionError","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1110:11)\n    at NativeConnection.openUri (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1041:11)\n    at async initializeMongoose (/data/data/com.termux/files/home/discord-js-bot/src/database/mongoose.js:11:7)\n    at async /data/data/com.termux/files/home/discord-js-bot/bot.js:42:5","reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":6191506,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":6191511,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":6191487,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-culqd4-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}},"msg":"Mongoose: Failed to connect to database: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/"}
+{"level":30,"time":1773059976514,"pid":2379,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773059976517,"pid":2379,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773059976517,"pid":2379,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773059976517,"pid":2379,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773059976610,"pid":2379,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773059976631,"pid":2379,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059976632,"pid":2379,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059976713,"pid":2379,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773059976745,"pid":2379,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773059976747,"pid":2379,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773059976750,"pid":2379,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773059976752,"pid":2379,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773059977390,"pid":2379,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773059977394,"pid":2379,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773059977396,"pid":2379,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773059977398,"pid":2379,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773059977408,"pid":2379,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773059977410,"pid":2379,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773059977412,"pid":2379,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773059977416,"pid":2379,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773059977418,"pid":2379,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773059977440,"pid":2379,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773059977444,"pid":2379,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773059977446,"pid":2379,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773059977454,"pid":2379,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773059977456,"pid":2379,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773059977460,"pid":2379,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773059977461,"pid":2379,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773059977463,"pid":2379,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773059977465,"pid":2379,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773059977466,"pid":2379,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773059977468,"pid":2379,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773059977469,"pid":2379,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773059977471,"pid":2379,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773059977472,"pid":2379,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773059977476,"pid":2379,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773059977477,"pid":2379,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773059977479,"pid":2379,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773059977481,"pid":2379,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773059977483,"pid":2379,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773059977484,"pid":2379,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773059977485,"pid":2379,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773059977486,"pid":2379,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773059977487,"pid":2379,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773059977489,"pid":2379,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773059977490,"pid":2379,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773059977492,"pid":2379,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773059977494,"pid":2379,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773059977496,"pid":2379,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773059977497,"pid":2379,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773059977501,"pid":2379,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773059977504,"pid":2379,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773059977505,"pid":2379,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773059977507,"pid":2379,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773059977508,"pid":2379,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773059977509,"pid":2379,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773059977511,"pid":2379,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773059977512,"pid":2379,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773059977514,"pid":2379,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773059977516,"pid":2379,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773059977518,"pid":2379,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773059977521,"pid":2379,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773059977522,"pid":2379,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773059977524,"pid":2379,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773059977525,"pid":2379,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773059977526,"pid":2379,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773059977527,"pid":2379,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773059977529,"pid":2379,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773059977530,"pid":2379,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773059977531,"pid":2379,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773059977531,"pid":2379,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773059977533,"pid":2379,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773059977534,"pid":2379,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773059977535,"pid":2379,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773059977536,"pid":2379,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773059977540,"pid":2379,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773059977541,"pid":2379,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773059977543,"pid":2379,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773059977544,"pid":2379,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773059977546,"pid":2379,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773059977550,"pid":2379,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773059977554,"pid":2379,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773059977556,"pid":2379,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773059977581,"pid":2379,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773059977581,"pid":2379,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773059977581,"pid":2379,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773059977584,"pid":2379,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773059977584,"pid":2379,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773059977584,"pid":2379,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773059977657,"pid":2379,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773059978347,"pid":2379,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773059978348,"pid":2379,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1773060008523,"pid":2379,"hostname":"localhost","err":{"type":"MongooseServerSelectionError","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1110:11)\n    at NativeConnection.openUri (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1041:11)\n    at async initializeMongoose (/data/data/com.termux/files/home/discord-js-bot/src/database/mongoose.js:11:7)\n    at async /data/data/com.termux/files/home/discord-js-bot/bot.js:42:5","reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7042837,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7042855,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7043065,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-culqd4-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}},"msg":"Mongoose: Failed to connect to database: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/"}
+{"level":30,"time":1773060304959,"pid":10298,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773060304962,"pid":10298,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773060304962,"pid":10298,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773060304962,"pid":10298,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773060305015,"pid":10298,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773060305026,"pid":10298,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060305028,"pid":10298,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060305078,"pid":10298,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060305100,"pid":10298,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773060305102,"pid":10298,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773060305103,"pid":10298,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773060305105,"pid":10298,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773060305481,"pid":10298,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773060305485,"pid":10298,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773060305487,"pid":10298,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773060305488,"pid":10298,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773060305496,"pid":10298,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773060305498,"pid":10298,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773060305500,"pid":10298,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773060305502,"pid":10298,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773060305504,"pid":10298,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773060305524,"pid":10298,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773060305525,"pid":10298,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773060305527,"pid":10298,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773060305533,"pid":10298,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773060305535,"pid":10298,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773060305538,"pid":10298,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060305539,"pid":10298,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773060305540,"pid":10298,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773060305541,"pid":10298,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773060305543,"pid":10298,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773060305544,"pid":10298,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773060305545,"pid":10298,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773060305546,"pid":10298,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773060305547,"pid":10298,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060305550,"pid":10298,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773060305552,"pid":10298,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773060305553,"pid":10298,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060305554,"pid":10298,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773060305555,"pid":10298,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773060305556,"pid":10298,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060305557,"pid":10298,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773060305558,"pid":10298,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773060305558,"pid":10298,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773060305559,"pid":10298,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773060305560,"pid":10298,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773060305561,"pid":10298,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060305563,"pid":10298,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060305565,"pid":10298,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060305566,"pid":10298,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773060305569,"pid":10298,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060305571,"pid":10298,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773060305572,"pid":10298,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773060305573,"pid":10298,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060305574,"pid":10298,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773060305575,"pid":10298,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060305576,"pid":10298,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773060305578,"pid":10298,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773060305579,"pid":10298,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773060305581,"pid":10298,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773060305582,"pid":10298,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773060305584,"pid":10298,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773060305585,"pid":10298,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773060305586,"pid":10298,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773060305587,"pid":10298,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773060305588,"pid":10298,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773060305589,"pid":10298,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773060305591,"pid":10298,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773060305591,"pid":10298,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773060305592,"pid":10298,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773060305592,"pid":10298,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773060305593,"pid":10298,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773060305594,"pid":10298,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773060305595,"pid":10298,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773060305596,"pid":10298,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773060305599,"pid":10298,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773060305600,"pid":10298,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773060305601,"pid":10298,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773060305602,"pid":10298,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773060305604,"pid":10298,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060305607,"pid":10298,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060305611,"pid":10298,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773060305612,"pid":10298,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773060305631,"pid":10298,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773060305631,"pid":10298,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773060305631,"pid":10298,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773060305633,"pid":10298,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773060305633,"pid":10298,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773060305633,"pid":10298,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773060305712,"pid":10298,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773060306430,"pid":10298,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773060306431,"pid":10298,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1773060336633,"pid":10298,"hostname":"localhost","err":{"type":"MongooseServerSelectionError","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1110:11)\n    at NativeConnection.openUri (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1041:11)\n    at async initializeMongoose (/data/data/com.termux/files/home/discord-js-bot/src/database/mongoose.js:11:7)\n    at async /data/data/com.termux/files/home/discord-js-bot/bot.js:42:5","reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7371021,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7371013,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7371023,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-culqd4-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}},"msg":"Mongoose: Failed to connect to database: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/"}
+{"level":30,"time":1773060420081,"pid":12781,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773060420084,"pid":12781,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773060420084,"pid":12781,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773060420084,"pid":12781,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773060420138,"pid":12781,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773060420149,"pid":12781,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060420151,"pid":12781,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060420210,"pid":12781,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060420238,"pid":12781,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773060420239,"pid":12781,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773060420241,"pid":12781,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773060420242,"pid":12781,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773060420628,"pid":12781,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773060420632,"pid":12781,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773060420633,"pid":12781,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773060420635,"pid":12781,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773060420642,"pid":12781,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773060420644,"pid":12781,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773060420647,"pid":12781,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773060420649,"pid":12781,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773060420651,"pid":12781,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773060420671,"pid":12781,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773060420672,"pid":12781,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773060420673,"pid":12781,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773060420680,"pid":12781,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773060420681,"pid":12781,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773060420684,"pid":12781,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060420685,"pid":12781,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773060420686,"pid":12781,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773060420688,"pid":12781,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773060420689,"pid":12781,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773060420690,"pid":12781,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773060420692,"pid":12781,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773060420693,"pid":12781,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773060420694,"pid":12781,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060420697,"pid":12781,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773060420698,"pid":12781,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773060420699,"pid":12781,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060420700,"pid":12781,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773060420702,"pid":12781,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773060420702,"pid":12781,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060420703,"pid":12781,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773060420704,"pid":12781,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773060420705,"pid":12781,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773060420705,"pid":12781,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773060420706,"pid":12781,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773060420708,"pid":12781,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060420709,"pid":12781,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060420711,"pid":12781,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060420712,"pid":12781,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773060420715,"pid":12781,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060420717,"pid":12781,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773060420718,"pid":12781,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773060420720,"pid":12781,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060420721,"pid":12781,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773060420722,"pid":12781,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060420723,"pid":12781,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773060420724,"pid":12781,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773060420725,"pid":12781,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773060420727,"pid":12781,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773060420728,"pid":12781,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773060420730,"pid":12781,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773060420731,"pid":12781,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773060420733,"pid":12781,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773060420734,"pid":12781,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773060420734,"pid":12781,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773060420736,"pid":12781,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773060420737,"pid":12781,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773060420737,"pid":12781,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773060420738,"pid":12781,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773060420738,"pid":12781,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773060420739,"pid":12781,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773060420740,"pid":12781,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773060420741,"pid":12781,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773060420742,"pid":12781,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773060420745,"pid":12781,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773060420747,"pid":12781,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773060420748,"pid":12781,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773060420749,"pid":12781,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773060420750,"pid":12781,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060420754,"pid":12781,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060420757,"pid":12781,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773060420759,"pid":12781,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773060420777,"pid":12781,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773060420777,"pid":12781,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773060420778,"pid":12781,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773060420780,"pid":12781,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773060420780,"pid":12781,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773060420780,"pid":12781,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773060420843,"pid":12781,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773060421543,"pid":12781,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773060421544,"pid":12781,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1773060451758,"pid":12781,"hostname":"localhost","err":{"type":"MongooseServerSelectionError","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1110:11)\n    at NativeConnection.openUri (/data/data/com.termux/files/home/discord-js-bot/node_modules/mongoose/lib/connection.js:1041:11)\n    at async initializeMongoose (/data/data/com.termux/files/home/discord-js-bot/src/database/mongoose.js:11:7)\n    at async /data/data/com.termux/files/home/discord-js-bot/bot.js:42:5","reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7486222,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-00.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7486220,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017":{"address":"ac-vnbsrur-shard-00-02.qlz2gqr.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":7486210,"lastWriteDate":0,"error":{},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-culqd4-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}},"msg":"Mongoose: Failed to connect to database: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/"}
+{"level":30,"time":1773060562705,"pid":15828,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773060562712,"pid":15828,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773060562712,"pid":15828,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773060562712,"pid":15828,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773060562765,"pid":15828,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773060562777,"pid":15828,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060562779,"pid":15828,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060562835,"pid":15828,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060562863,"pid":15828,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773060562865,"pid":15828,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773060562866,"pid":15828,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773060562867,"pid":15828,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773060563321,"pid":15828,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773060563326,"pid":15828,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773060563327,"pid":15828,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773060563329,"pid":15828,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773060563337,"pid":15828,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773060563339,"pid":15828,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773060563341,"pid":15828,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773060563344,"pid":15828,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773060563345,"pid":15828,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773060563369,"pid":15828,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773060563370,"pid":15828,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773060563372,"pid":15828,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773060563378,"pid":15828,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773060563380,"pid":15828,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773060563383,"pid":15828,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060563384,"pid":15828,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773060563385,"pid":15828,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773060563386,"pid":15828,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773060563387,"pid":15828,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773060563389,"pid":15828,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773060563390,"pid":15828,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773060563391,"pid":15828,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773060563392,"pid":15828,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060563399,"pid":15828,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773060563400,"pid":15828,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773060563402,"pid":15828,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060563403,"pid":15828,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773060563404,"pid":15828,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773060563405,"pid":15828,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060563406,"pid":15828,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773060563407,"pid":15828,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773060563407,"pid":15828,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773060563408,"pid":15828,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773060563409,"pid":15828,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773060563410,"pid":15828,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060563412,"pid":15828,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060563413,"pid":15828,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060563415,"pid":15828,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773060563418,"pid":15828,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060563420,"pid":15828,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773060563421,"pid":15828,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773060563422,"pid":15828,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060563423,"pid":15828,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773060563424,"pid":15828,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060563425,"pid":15828,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773060563426,"pid":15828,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773060563428,"pid":15828,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773060563430,"pid":15828,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773060563431,"pid":15828,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773060563433,"pid":15828,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773060563433,"pid":15828,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773060563435,"pid":15828,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773060563436,"pid":15828,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773060563437,"pid":15828,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773060563438,"pid":15828,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773060563439,"pid":15828,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773060563440,"pid":15828,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773060563440,"pid":15828,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773060563441,"pid":15828,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773060563442,"pid":15828,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773060563443,"pid":15828,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773060563444,"pid":15828,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773060563445,"pid":15828,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773060563447,"pid":15828,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773060563448,"pid":15828,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773060563449,"pid":15828,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773060563450,"pid":15828,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773060563452,"pid":15828,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060563461,"pid":15828,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060563465,"pid":15828,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773060563466,"pid":15828,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773060563487,"pid":15828,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773060563487,"pid":15828,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773060563487,"pid":15828,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773060563489,"pid":15828,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773060563489,"pid":15828,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773060563489,"pid":15828,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773060563572,"pid":15828,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773060564050,"pid":15828,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773060564050,"pid":15828,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1773060565011,"pid":15828,"hostname":"localhost","msg":"Mongoose: Database connection established"}
+{"level":50,"time":1773060575568,"pid":15828,"hostname":"localhost","err":{"type":"ConnectTimeoutError","message":"Connect Timeout Error (attempted addresses: 2a01:358:4014:a00::3:443, 195.175.254.2:443, timeout: 10000ms)","stack":"ConnectTimeoutError: Connect Timeout Error (attempted addresses: 2a01:358:4014:a00::3:443, 195.175.254.2:443, timeout: 10000ms)\n    at onConnectTimeout (/data/data/com.termux/files/home/discord-js-bot/node_modules/@discordjs/rest/node_modules/undici/lib/core/connect.js:237:24)\n    at Immediate._onImmediate (/data/data/com.termux/files/home/discord-js-bot/node_modules/@discordjs/rest/node_modules/undici/lib/core/connect.js:206:11)\n    at process.processImmediate (node:internal/timers:504:21)","name":"ConnectTimeoutError","code":"UND_ERR_CONNECT_TIMEOUT"},"msg":"Unhandled exception: Connect Timeout Error (attempted addresses: 2a01:358:4014:a00::3:443, 195.175.254.2:443, timeout: 10000ms)"}
+{"level":30,"time":1773060824200,"pid":20493,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773060824204,"pid":20493,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773060824204,"pid":20493,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773060824204,"pid":20493,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773060824311,"pid":20493,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773060824338,"pid":20493,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060824348,"pid":20493,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060824459,"pid":20493,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773060824492,"pid":20493,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773060824493,"pid":20493,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773060824495,"pid":20493,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773060824497,"pid":20493,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773060825154,"pid":20493,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773060825158,"pid":20493,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773060825160,"pid":20493,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773060825162,"pid":20493,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773060825172,"pid":20493,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773060825174,"pid":20493,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773060825178,"pid":20493,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773060825182,"pid":20493,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773060825183,"pid":20493,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773060825206,"pid":20493,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773060825212,"pid":20493,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773060825214,"pid":20493,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773060825222,"pid":20493,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773060825224,"pid":20493,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773060825229,"pid":20493,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060825230,"pid":20493,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773060825232,"pid":20493,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773060825234,"pid":20493,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773060825235,"pid":20493,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773060825237,"pid":20493,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773060825238,"pid":20493,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773060825239,"pid":20493,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773060825241,"pid":20493,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773060825246,"pid":20493,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773060825247,"pid":20493,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773060825249,"pid":20493,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060825251,"pid":20493,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773060825253,"pid":20493,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773060825253,"pid":20493,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060825255,"pid":20493,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773060825256,"pid":20493,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773060825257,"pid":20493,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773060825258,"pid":20493,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773060825260,"pid":20493,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773060825263,"pid":20493,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773060825265,"pid":20493,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060825266,"pid":20493,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773060825268,"pid":20493,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773060825271,"pid":20493,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773060825274,"pid":20493,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773060825275,"pid":20493,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773060825277,"pid":20493,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060825279,"pid":20493,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773060825280,"pid":20493,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773060825281,"pid":20493,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773060825283,"pid":20493,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773060825285,"pid":20493,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773060825288,"pid":20493,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773060825289,"pid":20493,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773060825293,"pid":20493,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773060825294,"pid":20493,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773060825296,"pid":20493,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773060825298,"pid":20493,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773060825298,"pid":20493,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773060825300,"pid":20493,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773060825301,"pid":20493,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773060825302,"pid":20493,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773060825303,"pid":20493,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773060825304,"pid":20493,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773060825305,"pid":20493,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773060825307,"pid":20493,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773060825308,"pid":20493,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773060825309,"pid":20493,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773060825312,"pid":20493,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773060825314,"pid":20493,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773060825315,"pid":20493,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773060825316,"pid":20493,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773060825318,"pid":20493,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060825322,"pid":20493,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773060825327,"pid":20493,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773060825328,"pid":20493,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773060825355,"pid":20493,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773060825355,"pid":20493,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773060825355,"pid":20493,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773060825358,"pid":20493,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773060825358,"pid":20493,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773060825358,"pid":20493,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773060825436,"pid":20493,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773060826017,"pid":20493,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773060826017,"pid":20493,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1773060827317,"pid":20493,"hostname":"localhost","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1773060828490,"pid":20493,"hostname":"localhost","msg":"Logged in as Moderation#0374! (1480535441231839374)"}
+{"level":30,"time":1773063067931,"pid":22440,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":50,"time":1773063067935,"pid":22440,"hostname":"localhost","msg":"env: BOT_TOKEN cannot be empty"}
+{"level":30,"time":1773063758632,"pid":7211,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773063758636,"pid":7211,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773063758636,"pid":7211,"hostname":"localhost","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1773063758636,"pid":7211,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773063758969,"pid":7211,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773063759038,"pid":7211,"hostname":"localhost","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1773063759053,"pid":7211,"hostname":"localhost","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1773063759360,"pid":7211,"hostname":"localhost","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1773063759484,"pid":7211,"hostname":"localhost","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1773063759491,"pid":7211,"hostname":"localhost","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1773063759499,"pid":7211,"hostname":"localhost","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1773063759506,"pid":7211,"hostname":"localhost","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1773063762580,"pid":7211,"hostname":"localhost","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1773063762633,"pid":7211,"hostname":"localhost","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1773063762649,"pid":7211,"hostname":"localhost","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1773063762664,"pid":7211,"hostname":"localhost","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1773063762711,"pid":7211,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773063762722,"pid":7211,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773063762739,"pid":7211,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773063762759,"pid":7211,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773063762774,"pid":7211,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773063762837,"pid":7211,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773063762847,"pid":7211,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773063762861,"pid":7211,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773063762946,"pid":7211,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773063762967,"pid":7211,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773063762992,"pid":7211,"hostname":"localhost","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1773063763003,"pid":7211,"hostname":"localhost","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1773063763019,"pid":7211,"hostname":"localhost","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1773063763032,"pid":7211,"hostname":"localhost","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1773063763042,"pid":7211,"hostname":"localhost","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1773063763053,"pid":7211,"hostname":"localhost","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1773063763062,"pid":7211,"hostname":"localhost","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1773063763069,"pid":7211,"hostname":"localhost","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1773063763076,"pid":7211,"hostname":"localhost","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1773063763087,"pid":7211,"hostname":"localhost","msg":"Skipping Command ban. Category MODERATION is disabled"}
+{"level":20,"time":1773063763092,"pid":7211,"hostname":"localhost","msg":"Skipping Command kick. Category MODERATION is disabled"}
+{"level":20,"time":1773063763099,"pid":7211,"hostname":"localhost","msg":"Skipping Command deafen. Category MODERATION is disabled"}
+{"level":20,"time":1773063763105,"pid":7211,"hostname":"localhost","msg":"Skipping Command disconnect. Category MODERATION is disabled"}
+{"level":20,"time":1773063763113,"pid":7211,"hostname":"localhost","msg":"Skipping Command move. Category MODERATION is disabled"}
+{"level":20,"time":1773063763117,"pid":7211,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773063763121,"pid":7211,"hostname":"localhost","msg":"Skipping Command purgeattach. Category MODERATION is disabled"}
+{"level":20,"time":1773063763126,"pid":7211,"hostname":"localhost","msg":"Skipping Command purgebots. Category MODERATION is disabled"}
+{"level":20,"time":1773063763130,"pid":7211,"hostname":"localhost","msg":"Skipping Command purgelinks. Category MODERATION is disabled"}
+{"level":20,"time":1773063763133,"pid":7211,"hostname":"localhost","msg":"Skipping Command purgetoken. Category MODERATION is disabled"}
+{"level":20,"time":1773063763137,"pid":7211,"hostname":"localhost","msg":"Skipping Command purgeuser. Category MODERATION is disabled"}
+{"level":20,"time":1773063763143,"pid":7211,"hostname":"localhost","msg":"Skipping Command undeafen. Category MODERATION is disabled"}
+{"level":20,"time":1773063763150,"pid":7211,"hostname":"localhost","msg":"Skipping Command vmute. Category MODERATION is disabled"}
+{"level":20,"time":1773063763156,"pid":7211,"hostname":"localhost","msg":"Skipping Command vunmute. Category MODERATION is disabled"}
+{"level":20,"time":1773063763160,"pid":7211,"hostname":"localhost","msg":"Skipping Command nick. Category MODERATION is disabled"}
+{"level":20,"time":1773063763181,"pid":7211,"hostname":"localhost","msg":"Skipping Command purge. Category MODERATION is disabled"}
+{"level":20,"time":1773063763190,"pid":7211,"hostname":"localhost","msg":"Skipping Command voice. Category MODERATION is disabled"}
+{"level":20,"time":1773063763195,"pid":7211,"hostname":"localhost","msg":"Skipping Command softban. Category MODERATION is disabled"}
+{"level":20,"time":1773063763202,"pid":7211,"hostname":"localhost","msg":"Skipping Command timeout. Category MODERATION is disabled"}
+{"level":20,"time":1773063763208,"pid":7211,"hostname":"localhost","msg":"Skipping Command unban. Category MODERATION is disabled"}
+{"level":20,"time":1773063763215,"pid":7211,"hostname":"localhost","msg":"Skipping Command untimeout. Category MODERATION is disabled"}
+{"level":20,"time":1773063763221,"pid":7211,"hostname":"localhost","msg":"Skipping Command warn. Category MODERATION is disabled"}
+{"level":20,"time":1773063763230,"pid":7211,"hostname":"localhost","msg":"Skipping Command warnings. Category MODERATION is disabled"}
+{"level":20,"time":1773063763238,"pid":7211,"hostname":"localhost","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1773063763252,"pid":7211,"hostname":"localhost","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1773063763259,"pid":7211,"hostname":"localhost","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1773063763273,"pid":7211,"hostname":"localhost","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1773063763277,"pid":7211,"hostname":"localhost","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1773063763285,"pid":7211,"hostname":"localhost","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1773063763290,"pid":7211,"hostname":"localhost","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1773063763295,"pid":7211,"hostname":"localhost","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1773063763301,"pid":7211,"hostname":"localhost","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1773063763308,"pid":7211,"hostname":"localhost","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1773063763312,"pid":7211,"hostname":"localhost","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1773063763317,"pid":7211,"hostname":"localhost","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1773063763322,"pid":7211,"hostname":"localhost","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1773063763328,"pid":7211,"hostname":"localhost","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1773063763334,"pid":7211,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773063763338,"pid":7211,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773063763344,"pid":7211,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1773063763356,"pid":7211,"hostname":"localhost","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1773063763364,"pid":7211,"hostname":"localhost","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1773063763368,"pid":7211,"hostname":"localhost","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1773063763373,"pid":7211,"hostname":"localhost","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":20,"time":1773063763381,"pid":7211,"hostname":"localhost","msg":"Skipping Command suggest. Category SUGGESTION is disabled"}
+{"level":20,"time":1773063763396,"pid":7211,"hostname":"localhost","msg":"Skipping Command suggestion. Category SUGGESTION is disabled"}
+{"level":20,"time":1773063763408,"pid":7211,"hostname":"localhost","msg":"Skipping Command ticket. Category TICKET is disabled"}
+{"level":20,"time":1773063763413,"pid":7211,"hostname":"localhost","msg":"Skipping Command ticketcat. Category TICKET is disabled"}
+{"level":30,"time":1773063763497,"pid":7211,"hostname":"localhost","msg":"Loaded 42 commands"}
+{"level":30,"time":1773063763498,"pid":7211,"hostname":"localhost","msg":"Loaded 33 slash commands"}
+{"level":30,"time":1773063763498,"pid":7211,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773063763505,"pid":7211,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773063763505,"pid":7211,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773063763505,"pid":7211,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773063763658,"pid":7211,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773063764630,"pid":7211,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773063764630,"pid":7211,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1773063768967,"pid":7211,"hostname":"localhost","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1773063782521,"pid":7211,"hostname":"localhost","msg":"Logged in as Moderation#0374! (1480535441231839374)"}
+{"level":30,"time":1773064492722,"pid":7211,"hostname":"localhost","msg":"Guild Left: deneme1 Members: 4"}
+{"level":30,"time":1773064507856,"pid":7211,"hostname":"localhost","msg":"Guild Joined: deneme1 Members: 5"}
+{"level":30,"time":1773065596010,"pid":17697,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":50,"time":1773065596014,"pid":17697,"hostname":"localhost","msg":"env: BOT_SECRET cannot be empty"}
+{"level":30,"time":1773065814841,"pid":22342,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":50,"time":1773065814844,"pid":22342,"hostname":"localhost","msg":"env: SESSION_PASSWORD cannot be empty"}
+{"level":30,"time":1773065983401,"pid":24498,"hostname":"localhost","msg":"Validating config file and environment variables"}
+{"level":40,"time":1773065983405,"pid":24498,"hostname":"localhost","msg":"env: SPOTIFY_CLIENT_ID or SPOTIFY_CLIENT_SECRET are missing. Spotify music links won't work"}
+{"level":40,"time":1773065983405,"pid":24498,"hostname":"localhost","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1773065983405,"pid":24498,"hostname":"localhost","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1773065983732,"pid":24498,"hostname":"localhost","msg":"Loading commands..."}
+{"level":20,"time":1773065989130,"pid":24498,"hostname":"localhost","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1773065989156,"pid":24498,"hostname":"localhost","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1773065989190,"pid":24498,"hostname":"localhost","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1773065989224,"pid":24498,"hostname":"localhost","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1773065989248,"pid":24498,"hostname":"localhost","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1773065989297,"pid":24498,"hostname":"localhost","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1773065989306,"pid":24498,"hostname":"localhost","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1773065989317,"pid":24498,"hostname":"localhost","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1773065989408,"pid":24498,"hostname":"localhost","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1773065989432,"pid":24498,"hostname":"localhost","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1773065989605,"pid":24498,"hostname":"localhost","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1773065989616,"pid":24498,"hostname":"localhost","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1773065989630,"pid":24498,"hostname":"localhost","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1773065989636,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1773065989641,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1773065989647,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1773065989652,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1773065989658,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1773065989664,"pid":24498,"hostname":"localhost","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1773065989674,"pid":24498,"hostname":"localhost","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1773065989686,"pid":24498,"hostname":"localhost","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1773065989699,"pid":24498,"hostname":"localhost","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1773065989751,"pid":24498,"hostname":"localhost","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1773065989780,"pid":24498,"hostname":"localhost","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1773065989991,"pid":24498,"hostname":"localhost","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1773065989996,"pid":24498,"hostname":"localhost","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1773065990001,"pid":24498,"hostname":"localhost","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1773065990333,"pid":24498,"hostname":"localhost","msg":"Loaded 105 commands"}
+{"level":30,"time":1773065990333,"pid":24498,"hostname":"localhost","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1773065990334,"pid":24498,"hostname":"localhost","msg":"Loading contexts..."}
+{"level":30,"time":1773065990352,"pid":24498,"hostname":"localhost","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1773065990352,"pid":24498,"hostname":"localhost","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1773065990353,"pid":24498,"hostname":"localhost","msg":"Loading events..."}
+{"level":30,"time":1773065990669,"pid":24498,"hostname":"localhost","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1773065991232,"pid":24498,"hostname":"localhost","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1773065991233,"pid":24498,"hostname":"localhost","msg":"Launching dashboard"}
+{"level":30,"time":1773065992320,"pid":24498,"hostname":"localhost","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1773065993881,"pid":24498,"hostname":"localhost","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1773065993959,"pid":24498,"hostname":"localhost","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1773065995231,"pid":24498,"hostname":"localhost","msg":"Logged in as Moderation#0374! (1480535441231839374)"}
+{"level":20,"time":1773065995232,"pid":24498,"hostname":"localhost","msg":"Node \"Local Node\" debug: connection: creating websocket..."}
+{"level":30,"time":1773065995235,"pid":24498,"hostname":"localhost","msg":"Music Manager initialized"}
+{"level":30,"time":1773065995235,"pid":24498,"hostname":"localhost","msg":"Initializing giveaways manager..."}
+{"level":50,"time":1773065995280,"pid":24498,"hostname":"localhost","err":{"type":"Error","message":"Error: connect ECONNREFUSED 127.0.0.1:2333","stack":"Error: Error: connect ECONNREFUSED 127.0.0.1:2333\n    at Connection._onerror (/storage/emulated/0/CalisanBotum/node_modules/lavaclient/dist/lib/node/Connection.js:145:33)\n    at callListener (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/event-target.js:290:14)\n    at WebSocket.onError (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/event-target.js:230:9)\n    at WebSocket.emit (node:events:508:28)\n    at emitErrorAndClose (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/websocket.js:1041:13)\n    at ClientRequest.<anonymous> (/storage/emulated/0/CalisanBotum/node_modules/ws/lib/websocket.js:881:5)\n    at ClientRequest.emit (node:events:508:28)\n    at emitErrorEvent (node:_http_client:108:11)\n    at Socket.socketErrorListener (node:_http_client:575:5)\n    at Socket.emit (node:events:508:28)"},"msg":"Node \"Local Node\" encountered an error: Error: connect ECONNREFUSED 127.0.0.1:2333.: Error: connect ECONNREFUSED 127.0.0.1:2333"}
+{"level":30,"time":1773065995282,"pid":24498,"hostname":"localhost","msg":"Node \"Local Node\" disconnected"}
+{"level":20,"time":1773065995282,"pid":24498,"hostname":"localhost","msg":"Node \"Local Node\" debug: connection: unable to reconnect"}
+{"level":30,"time":1773065995353,"pid":24498,"hostname":"localhost","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1773065996520,"pid":24498,"hostname":"localhost","msg":"Successfully registered interactions"}
+{"level":50,"time":1773066129080,"pid":24498,"hostname":"localhost","err":{"type":"Error","message":"write ECONNABORTED","stack":"Error: write ECONNABORTED\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)\n    at handleWriteReq (node:internal/stream_base_commons:52:26)\n    at writeGeneric (node:internal/stream_base_commons:148:15)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:570:12)\n    at _write (node:internal/streams/writable:499:10)\n    at Writable.write (node:internal/streams/writable:508:10)\n    at Connection.writeCommand (/storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/cmap/connection.js:381:25)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)","errno":-103,"code":"ECONNABORTED","syscall":"write"},"msg":"Unhandled exception: write ECONNABORTED"}
+{"level":50,"time":1773066640864,"pid":24498,"hostname":"localhost","err":{"type":"PoolClearedError","message":"Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\": read ECONNABORTED: read ECONNABORTED","stack":"MongoPoolClearedError: Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\"\n    at /storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/cmap/connection_pool.js:385:77\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\ncaused by: MongoError: read ECONNABORTED\n    at onHeartbeatFailed (/storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/sdam/monitor.js:187:15)\n    at /storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/sdam/monitor.js:249:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\ncaused by: Error: read ECONNABORTED\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)","address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017"},"msg":"Unhandled exception: Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\""}
+{"level":50,"time":1773068362123,"pid":24498,"hostname":"localhost","err":{"type":"PoolClearedError","message":"Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\": read ECONNABORTED: read ECONNABORTED","stack":"MongoPoolClearedError: Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\"\n    at /storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/cmap/connection_pool.js:385:77\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\ncaused by: MongoError: read ECONNABORTED\n    at onHeartbeatFailed (/storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/sdam/monitor.js:187:15)\n    at /storage/emulated/0/CalisanBotum/node_modules/mongodb/lib/sdam/monitor.js:249:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\ncaused by: Error: read ECONNABORTED\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)","address":"ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017"},"msg":"Unhandled exception: Connection pool for ac-vnbsrur-shard-00-01.qlz2gqr.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNABORTED\""}
