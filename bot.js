@@ -155,5 +155,5 @@ client.on("messageCreate", async (message) => {
   }
 
   // Botu Başlat
-  await client.login(process.env.TOKEN);
+  await client.login(process.env.BOT_TOKEN);
 })();
