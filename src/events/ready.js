@@ -26,15 +26,18 @@ module.exports = async (client) => {
   }
 
   // Register Interactions
+  console.log(">>> [ADIM 1] Interactions (Slash) kaydediliyor...");
   if (client.config.INTERACTIONS.SLASH || client.config.INTERACTIONS.CONTEXT) {
     if (client.config.INTERACTIONS.GLOBAL) await client.registerInteractions();
     else await client.registerInteractions(client.config.INTERACTIONS.TEST_GUILD_ID);
   }
+  console.log(">>> [ADIM 2] Slash komutları bitti, Reaction Roles yükleniyor...");
 
-  // Load reaction roles to cache
   await cacheReactionRoles(client);
+  console.log(">>> [ADIM 3] Sunucu ayarları döngüsü başlıyor...");
 
   for (const guild of client.guilds.cache.values()) {
+    console.log(`>>> [ADIM 4] ${guild.name} sunucusu ayarları çekiliyor...`);
     const settings = await getSettings(guild);
 
     // initialize counter
