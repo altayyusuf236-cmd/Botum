@@ -135,4 +135,4 @@ mongoose.connect(process.env.MONGO_CONNECTION)
     .then(() => console.log("✅ Veritabanına (MongoDB) bağlandı!"))
     .catch((err) => console.error("❌ Veritabanı bağlantı hatası:", err));
 
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
