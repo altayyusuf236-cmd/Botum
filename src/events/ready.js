@@ -28,8 +28,8 @@ module.exports = async (client) => {
   // Register Interactions
   console.log(">>> [ADIM 1] Interactions (Slash) kaydediliyor...");
   if (client.config.INTERACTIONS.SLASH || client.config.INTERACTIONS.CONTEXT) {
-   // if (client.config.INTERACTIONS.GLOBAL) await client.registerInteractions();
- //   else await client.registerInteractions(client.config.INTERACTIONS.TEST_GUILD_ID);
+    if (client.config.INTERACTIONS.GLOBAL) await client.registerInteractions();
+    else await client.registerInteractions(client.config.INTERACTIONS.TEST_GUILD_ID);
   }
   console.log(">>> [ADIM 2] Slash komutları bitti, Reaction Roles yükleniyor...");
 
