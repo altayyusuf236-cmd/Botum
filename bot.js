@@ -11,21 +11,6 @@ const updateNotes = `**Version ${BOT_VERSION} PRO Update**
 require("dotenv").config();
 require("module-alias/register");
 
-// ==========================================
-// 🌐 RENDER PORT DİNLEYİCİ (HATA ÇÖZÜCÜ)
-// ==========================================
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000; // Render otomatik port atar
-
-app.get('/', (req, res) => {
-    res.send('Bot 7/24 Aktif ve Port Dinleniyor!');
-});
-
-app.listen(PORT, () => {
-    console.log(`\x1b[32m[🌐] Port dinleniyor: ${PORT}\x1b[0m`);
-});
-
 const { EmbedBuilder, REST, Routes, ActivityType, Colors, Partials } = require('discord.js');
 
 // Extenders
@@ -214,9 +199,34 @@ client.once('ready', async () => {
     if (channel) channel.send({ embeds: [new EmbedBuilder().setTitle("🚀 Bot Aktif!").setDescription(updateNotes).setColor(Colors.Green).setTimestamp()] }).catch(() => {});
 });
 
+// ... (üstteki log ve event kısımları aynı kalsın)
+
 (async () => {
   try {
+      console.log('\x1b[36m[🔄] Başlatma işlemi başlıyor...\x1b[0m');
+      
+      // MongoDB'yi her halükarda bağla
       await initializeMongoose();
+      console.log('\x1b[32m[✅] MongoDB bağlantısı başarılı!\x1b[0m');
+
+      // Dashboard'u başlat (Render Portunu bu kullanacak)
+      if (client.config.DASHBOARD.enabled) {
+          console.log('\x1b[36m[🌐] Dashboard hazırlanıyor...\x1b[0m');
+          const { launch } = require("@root/dashboard/app");
+          await launch(client); // Dashboard burada çalışacak ve Port scanning hatasını çözecek
+      } else {
+          // Eğer dashboard kapalıysa Render hata vermesin diye boş bir server aç
+          const express = require('express');
+          const dummyApp = express();
+          dummyApp.get('/', (req, res) => res.send('Bot Aktif (Dashboard Kapalı)'));
+          dummyApp.listen(process.env.PORT || 3000);
+      }
+      
+      console.log('\x1b[36m[🔑] Discord API\'ye bağlanılıyor...\x1b[0m');
       await client.login(process.env.BOT_TOKEN);
-  } catch (err) { console.error(err); }
+      
+  } catch (error) {
+      console.error('\x1b[31m[🚨] Kritik Başlatma Hatası:\x1b[0m', error);
+      process.exit(1);
+  }
 })();
