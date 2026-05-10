@@ -25,28 +25,30 @@ module.exports.launch = async (client) => {
 
   /* App configuration */
   
-  // ⚡ RENDER İÇİN KRİTİK AYAR (Yönlendirme döngüsünü kırar)
-  app.set("trust proxy", 1);
+  // 1. RENDER İÇİN KRİTİK AYARLAR (En üstte olmalı)
+  app.set("trust proxy", 1); 
 
   app
-    .use(express.json()) // For post methods
+    .use(express.json())
     .use(express.urlencoded({ extended: true }))
-    .engine("html", require("ejs").renderFile) // Set the engine to html (for ejs template)
+    .engine("html", require("ejs").renderFile)
     .set("view engine", "ejs")
-    .use(express.static(path.join(__dirname, "/public"))) // Set the css and js folder to ./public
-    .set("views", path.join(__dirname, "/views")) // Set the ejs templates to ./views
-    // ⚡ PORT AYARI GÜNCELLENDİ (Render'ın portunu öncelikli alır)
-    .set("port", process.env.PORT || config.DASHBOARD.port) 
+    .use(express.static(path.join(__dirname, "/public")))
+    .set("views", path.join(__dirname, "/views"))
+    .set("port", process.env.PORT || config.DASHBOARD.port)
     .use(
       session({
         secret: process.env.SESSION_PASSWORD || "gizli_sifre_buraya",
+        resave: false, // Genelde false daha stabildir
+        saveUninitialized: false,
+        proxy: true, // ⚡ RENDER İÇİN ŞART: Proxy'ye güven
+        name: "muhtesem_bot_session",
         cookie: { 
           maxAge: 336 * 60 * 60 * 1000,
-          secure: true // ⚡ HTTPS kullandığımız için bu şart (trust proxy ile çalışır)
+          secure: true, // ⚡ HTTPS'de çerezlerin gitmesi için ŞART
+          httpOnly: true,
+          sameSite: 'lax'
         },
-        name: "djs_connection_cookie",
-        resave: true,
-        saveUninitialized: false,
         store: MongoStore.create({
           client: db.getClient(),
           dbName: db.name,
@@ -56,7 +58,7 @@ module.exports.launch = async (client) => {
           autoRemoveInterval: 1,
         }),
       })
-    ) // Set the express session password and configuration
+    )
     .use(async function (req, res, next) {
       req.user = req.session.user;
       req.client = client;
@@ -67,17 +69,17 @@ module.exports.launch = async (client) => {
     .use("/logout", logoutRouter)
     .use("/manage", guildManagerRouter)
     .use("/", mainRouter)
-    .use(CheckAuth, function (req, res) {
+    // ⚡ 404 VE 500 SAYFALARINDAN CheckAuth'U KALDIRDIK (Döngüyü kıran yer burası!)
+    .use(function (req, res) {
       res.status(404).render("404", {
-        user: req.userInfos,
+        user: req.userInfos || null,
         currentURL: `${req.protocol}://${req.get("host")}${req.originalUrl}`,
       });
     })
-    .use(CheckAuth, function (err, req, res) {
+    .use(function (err, req, res, next) {
       console.error(err.stack);
-      if (!req.user) return res.redirect("/");
       res.status(500).render("500", {
-        user: req.userInfos,
+        user: req.userInfos || null,
         currentURL: `${req.protocol}://${req.get("host")}${req.originalUrl}`,
       });
     });
