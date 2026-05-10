@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://muhtesembotum.onrender.com", // base url
-    failureURL: "https://muhtesembotum.onrender.com", // failure redirect url
+    baseURL: "https://botum-uwtg.onrender.com", // base url
+    failureURL: "https://botum-uwtg.onrender.com", // failure redirect url
     port: process.env.PORT || 8080, // port to run the bot on
   },
 

@@ -11,6 +11,21 @@ const updateNotes = `**Version ${BOT_VERSION} PRO Update**
 require("dotenv").config();
 require("module-alias/register");
 
+// ==========================================
+// 🌐 RENDER PORT DİNLEYİCİ (HATA ÇÖZÜCÜ)
+// ==========================================
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000; // Render otomatik port atar
+
+app.get('/', (req, res) => {
+    res.send('Bot 7/24 Aktif ve Port Dinleniyor!');
+});
+
+app.listen(PORT, () => {
+    console.log(`\x1b[32m[🌐] Port dinleniyor: ${PORT}\x1b[0m`);
+});
+
 const { EmbedBuilder, REST, Routes, ActivityType, Colors, Partials } = require('discord.js');
 
 // Extenders
