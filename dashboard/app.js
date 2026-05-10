@@ -24,6 +24,10 @@ module.exports.launch = async (client) => {
   const db = await mongoose.initializeMongoose();
 
   /* App configuration */
+  
+  // ⚡ RENDER İÇİN KRİTİK AYAR (Yönlendirme döngüsünü kırar)
+  app.set("trust proxy", 1);
+
   app
     .use(express.json()) // For post methods
     .use(express.urlencoded({ extended: true }))
@@ -31,11 +35,15 @@ module.exports.launch = async (client) => {
     .set("view engine", "ejs")
     .use(express.static(path.join(__dirname, "/public"))) // Set the css and js folder to ./public
     .set("views", path.join(__dirname, "/views")) // Set the ejs templates to ./views
-    .set("port", config.DASHBOARD.port) // Set the dashboard port
+    // ⚡ PORT AYARI GÜNCELLENDİ (Render'ın portunu öncelikli alır)
+    .set("port", process.env.PORT || config.DASHBOARD.port) 
     .use(
       session({
-        secret: process.env.SESSION_PASSWORD,
-        cookie: { maxAge: 336 * 60 * 60 * 1000 },
+        secret: process.env.SESSION_PASSWORD || "gizli_sifre_buraya",
+        cookie: { 
+          maxAge: 336 * 60 * 60 * 1000,
+          secure: true // ⚡ HTTPS kullandığımız için bu şart (trust proxy ile çalışır)
+        },
         name: "djs_connection_cookie",
         resave: true,
         saveUninitialized: false,
